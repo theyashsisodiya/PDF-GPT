@@ -19,11 +19,7 @@ Make sure you have the following dependencies installed:
 - `faiss-cpu`
 - `langchain_google_genai`
 
-You can install these dependencies using the provided `requirements.txt` file:
 
-```bash
-pip install -r requirements.txt
-```
 
 ## Usage
 
@@ -39,7 +35,13 @@ pip install -r requirements.txt
    cd PDF-GPT
    ```
 
-3. Set up your Google API key:
+3. You can install these dependencies using the provided `requirements.txt` file:
+
+```bash
+pip install -r requirements.txt
+```
+
+4. Set up your Google API key:
 
    Create a `.env` file in the project directory and add your Google API key:
 
@@ -47,17 +49,17 @@ pip install -r requirements.txt
    GOOGLE_API_KEY=<your_api_key>
    ```
 
-4. Run the application:
+5. Run the application:
 
    ```bash
    python -m streamlit run app.py
    ```
 
-5. In the Streamlit app, upload your PDF files and click on the "Submit & Process" button.
+6. In the Streamlit app, upload your PDF files and click on the "Submit & Process" button.
 
-6. Ask your questions in the text input field provided.
+7. Ask your questions in the text input field provided.
 
-7. The application will generate responses based on the content of the uploaded PDF files.
+8. The application will generate responses based on the content of the uploaded PDF files.
 
 ## Code Overview
 
