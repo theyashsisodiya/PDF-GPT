@@ -43,7 +43,7 @@ Make sure you have the following dependencies installed:
 
 4. Set up your Google API key:
 
-   Create a `.env` file in the PDF-GPT folder or in your project folder and add your Google API key from [Create API key](https://aistudio.google.com/app/apikey :
+   Create a `.env` file in the PDF-GPT folder or in your project folder and add your Google API key from [Create API key](https://aistudio.google.com/app/apikey) :
 
    ```dotenv
    GOOGLE_API_KEY=<your_api_key>
