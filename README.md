@@ -37,9 +37,9 @@ Make sure you have the following dependencies installed:
 
 3. You can install these dependencies using the provided `requirements.txt` file:
 
-```bash
-pip install -r requirements.txt
-```
+   ```bash
+   pip install -r requirements.txt
+   ```
 
 4. Set up your Google API key:
 
